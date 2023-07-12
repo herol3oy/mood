@@ -31,12 +31,12 @@ const Question = () => {
           value={value}
           type="text"
           placeholder="Ask a question"
-          className="border border-black/20 px-4 py-2 text-lg rounded-lg"
+          className="rounded-lg border border-black/20 px-4 py-2 text-lg"
         />
         <button
           disabled={loading}
           type="submit"
-          className="bg-blue-400 px-4 py-2 rounded-lg text-lg"
+          className="rounded-lg bg-blue-400 px-4 py-2 text-lg"
         >
           Ask
         </button>
