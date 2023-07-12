@@ -1,6 +1,6 @@
 'use client'
 
-// import { askQuestion } from '@/utils/api'
+import { askQuestion } from '@/utils/api'
 import { useState } from 'react'
 
 const Question = () => {
@@ -16,7 +16,7 @@ const Question = () => {
     e.preventDefault()
     setLoading(true)
 
-    // const answer = await askQuestion(value)
+    const answer = await askQuestion(value)
     setResponse(answer)
     setValue('')
     setLoading(false)
